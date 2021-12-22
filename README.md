@@ -5,3 +5,18 @@ This project will help determine the best moves for an abbreviated game of Conne
   
 The program will explore making its first move in each of the four columns. The first action will be to make a move in one of the four columns. The program will then pass the Board, and the next player to a Play method. The Play method will analyze the board and call itself up to 4 times, representing the possible number of next moves. At times the Play method may call itself less than four times due to the condition that a column is full. The Play method will return a 1 if the game is won by the first player, -1 if won by the second player, and zero, if that moves leads to a tie.  Hence Play (board, clr)  gives you the Net wins for first player, given the board position represented by board, and the next move is to be taken by clr.
 A game is won if 4 discs of the same color appear in a column , row or diagonal.
+
+Expected Results:
+
+NetWins for column 0:  112
+Number of recursion calls: 1087
+Red Wins:224   Blue Wins: 112
+******************
+NetWins for column 1:  6
+Number of recursion calls: 1103
+Red Wins:168   Blue Wins: 162
+******************
+NetWins for column 2:  112
+Number of recursion calls: 1087
+Red Wins:224   Blue Wins: 112
+******************
