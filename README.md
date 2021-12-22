@@ -1,5 +1,5 @@
 # connect-4-simulation
-This project will help determine the best moves for an abbreviated game of Connect4. The program will analyze the best starting position to make a move. Due to processing times our Connect4 board will be 4 x 4, versus a 7x7 board of the game (the actual board is 7 x 6).
+This project will help determine the best moves for an abbreviated game of Connect4. The program will analyze the best starting position to make a move. Due to processing times our Connect4 board will be 4 x 4, versus a 7 x 7 board of the game (the actual board is 7 x 6).
 
 ![image](https://user-images.githubusercontent.com/65920033/147157175-5d0583b4-d557-43ab-bef8-946fb4125fff.png)
   
